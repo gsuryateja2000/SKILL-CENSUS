@@ -1,0 +1,108 @@
+/* General Styles */
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background: #FF671F;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+/* Main Styles */
+main {
+    flex: 1;
+}
+
+main .intro {
+    background: #fff;
+    padding: 200px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+main .intro h2 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    color: #282c34;
+}
+
+main .intro p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+main .intro .btn {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.1em;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+main .intro .btn:hover {
+    background: #0056b3;
+}
+
+/* Footer Styles */
+footer {
+    background: #046a38;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .social-media a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer .social-media a:hover {
+    color: #007bff;
+}

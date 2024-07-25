@@ -106,3 +106,15 @@ footer .social-media a {
 footer .social-media a:hover {
     color: #007bff;
 }
+body {
+    transition: opacity 0.3s ease-in-out;
+}
+
+body.fade-out {
+    opacity: 0;
+}
+
+body.fade-in {
+    opacity: 1;
+}
+

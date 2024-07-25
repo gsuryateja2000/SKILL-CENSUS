@@ -1,0 +1,62 @@
+/* Contact Page Specific Styles */
+.contact .container {
+    background: #fff;
+    padding: 40px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.contact h2 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    color: #282c34;
+}
+
+.contact p {
+    font-size: 1.1em;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input, 
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.form-group input:focus, 
+.form-group textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.btn {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.1em;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
